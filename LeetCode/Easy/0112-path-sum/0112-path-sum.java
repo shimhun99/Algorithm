@@ -13,26 +13,42 @@
  *     }
  * }
  */
-class Solution {
-    int targetSum;
+import java.util.*;
 
-    public boolean hasPathSum(TreeNode root, int targetSum) {
-        this.targetSum=targetSum;
-        if(root == null) return false;
+class NodeSum {
+    TreeNode node;
+    int sum;
 
-        return dfs(root, root.val);
+    NodeSum(TreeNode node, int sum) {
+        this.node = node;
+        this.sum = sum;
     }
+}
 
-    boolean dfs(TreeNode node, int currSum){
+class Solution {
+    public boolean hasPathSum(TreeNode root, int targetSum) {
+        if (root == null) return false;
 
-        //리프 도착
-        if(node.left==null && node.right==null){
-            // if(currSum == targetSum) return true;
-            return currSum == targetSum;
+        Queue<NodeSum> queue = new ArrayDeque<>();
+        queue.offer(new NodeSum(root, root.val));
+
+        while (!queue.isEmpty()) {
+            NodeSum cur = queue.poll();
+            TreeNode node = cur.node;
+            int sum = cur.sum;
+
+            if (node.left == null && node.right == null && sum == targetSum) {
+                return true;
+            }
+
+            if (node.left != null) {
+                queue.offer(new NodeSum(node.left, sum + node.left.val));
+            }
+
+            if (node.right != null) {
+                queue.offer(new NodeSum(node.right, sum + node.right.val));
+            }
         }
-
-        if(node.left!=null && dfs(node.left, currSum+node.left.val)) return true;
-        if(node.right!=null && dfs(node.right, currSum+node.right.val)) return true;
 
         return false;
     }
