@@ -30,15 +30,16 @@ class Solution {
         //     }
         //     if(node.right!=null) queue.add(node.right);
         // }
+        // return total;
 
         //dfs
+        if(root == null) return 0;
+
         if(root.left!=null){
-            if(root.left.left==null && root.left.right==null) total+=node.left.val;
-            else sumOfLeftLeaves(root.left);
+            if(root.left.left==null && root.left.right==null) total+=root.left.val;
         }
 
-        if(root.right!=null) sumOfLeftLeaves(root.right);
-
-        return total;
+        return total + sumOfLeftLeaves(root.left)+sumOfLeftLeaves(root.right);
+        // if(root.right!=null) sumOfLeftLeaves(root.right);
     }
 }
