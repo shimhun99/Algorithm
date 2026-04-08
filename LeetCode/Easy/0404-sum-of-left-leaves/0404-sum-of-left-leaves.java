@@ -15,9 +15,9 @@
  */
 class Solution {
     Queue<TreeNode> queue = new ArrayDeque<>();
+    int total = 0; 
 
     public int sumOfLeftLeaves(TreeNode root) {
-        int total = 0; 
         
         // //bfs
         // queue.add(root);
@@ -33,13 +33,22 @@ class Solution {
         // return total;
 
         //dfs
-        if(root == null) return 0;
+        // if(root == null) return 0;
 
-        if(root.left!=null){
-            if(root.left.left==null && root.left.right==null) total+=root.left.val;
-        }
+        // if(root.left!=null){
+        //     if(root.left.left==null && root.left.right==null) total+=root.left.val;
+        // }
 
-        return total + sumOfLeftLeaves(root.left)+sumOfLeftLeaves(root.right);
-        // if(root.right!=null) sumOfLeftLeaves(root.right);
+        // return total + sumOfLeftLeaves(root.left)+sumOfLeftLeaves(root.right);
+        dfs(root);
+        return total;
+    }
+
+    void dfs(TreeNode node){
+        if(node == null) return;
+        if(node.left!=null && node.left.left==null&&node.left.right==null) total+=node.left.val;
+
+        dfs(node.left);
+        dfs(node.right);
     }
 }
