@@ -19,19 +19,25 @@ class Solution {
     public int sumOfLeftLeaves(TreeNode root) {
         int total = 0; 
         
-        //bfs
+        // //bfs
+        // queue.add(root);
 
+        // while(!queue.isEmpty()){
+        //     TreeNode node = queue.poll();
+        //     if(node.left!=null){
+        //         if(node.left.left==null && node.left.right==null) total+=node.left.val;
+        //         else queue.add(node.left);
+        //     }
+        //     if(node.right!=null) queue.add(node.right);
+        // }
 
-        queue.add(root);
-
-        while(!queue.isEmpty()){
-            TreeNode node = queue.poll();
-            if(node.left!=null){
-                if(node.left.left==null && node.left.right==null) total+=node.left.val;
-                else queue.add(node.left);
-            }
-            if(node.right!=null) queue.add(node.right);
+        //dfs
+        if(root.left!=null){
+            if(root.left.left==null && root.left.right==null) total+=node.left.val;
+            else sumOfLeftLeaves(root.left);
         }
+
+        if(root.right!=null) sumOfLeftLeaves(root.right);
 
         return total;
     }
