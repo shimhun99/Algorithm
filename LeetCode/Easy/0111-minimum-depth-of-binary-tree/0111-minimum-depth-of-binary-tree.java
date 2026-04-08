@@ -38,15 +38,14 @@ class Solution {
 
         while(!queue.isEmpty()){
             int queueLen = queue.size();
+            minDepth++;
 
             while(queueLen-->0){
                 TreeNode node = queue.poll();
                 if(node.left==null && node.right==null) return minDepth;
                 if(node.left!=null) queue.add(node.left);
                 if(node.right!=null) queue.add(node.right);
-            }
-
-            minDepth++;
+            }   
         }  
 
         return minDepth;
