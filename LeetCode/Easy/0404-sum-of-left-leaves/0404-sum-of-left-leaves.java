@@ -45,10 +45,10 @@ class Solution {
     }
 
     void dfs(TreeNode node){
-        if(node == null) return;
+        // if(node == null) return;
         if(node.left!=null && node.left.left==null&&node.left.right==null) total+=node.left.val;
 
-        dfs(node.left);
-        dfs(node.right);
+        if(node.left!=null) dfs(node.left);
+        if(node.right!=null) dfs(node.right);
     }
 }
