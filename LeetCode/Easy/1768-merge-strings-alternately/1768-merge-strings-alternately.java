@@ -22,7 +22,10 @@ class Solution {
 
         int max_len = Math.max(word1.length(), word2.length());
 
+        // String 대신 StringBuilder
         StringBuilder sb = new StringBuilder();
+
+        // 교차하면서 문자 하나씩 추가. 최대 길이 벗어난 경우에 추가 x
         for(int i=0; i<max_len; i++){
             if(i<word1.length()) sb.append(word1.charAt(i));
             if(i<word2.length()) sb.append(word2.charAt(i));
