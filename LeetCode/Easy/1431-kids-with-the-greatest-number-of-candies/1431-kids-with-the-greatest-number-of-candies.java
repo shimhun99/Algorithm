@@ -29,9 +29,13 @@ class Solution {
 
         List<Boolean> result = new ArrayList<>();
 
+        int threshold = maxCandy - extraCandies;
+
         for(int candy : candies){
-            if(candy + extraCandies < maxCandy) result.add(false);
-            else result.add(true);
+            // if( < maxCandy) result.add(false);
+            // else result.add(true);
+
+            result.add(candy >= threshold);
         }
 
         return result;
