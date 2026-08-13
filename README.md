@@ -40,10 +40,12 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1768-merge-strings-alternately/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1768-merge-strings-alternately/) | Easy |
 ## Math
