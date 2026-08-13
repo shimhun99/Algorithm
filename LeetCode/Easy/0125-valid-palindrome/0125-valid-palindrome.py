@@ -1,15 +1,22 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        # 1. 문자열 공백 제거 + 문자/숫자가 아닌거 전부 제거
-        s = "".join(ch for ch in s if ch.isalnum())
+        # # 리스트 만들고, reverse해서 비교
+        # convert_s = [ch for ch in s.lower() if ch.isalnum()]
+        # return convert_s == convert_s[::-1]
 
-        # 2. 소문자 변환
-        s = s.lower()
+        # print(convert_s)
 
-        # 3. 문자열 뒤집기
-        reverse_s = s[::-1]
+        # 투포인터
+        start, end = 0, len(s)-1
 
-        if s == reverse_s: 
-            return True
-        else:
-            return False
+        while start < end:
+            while start < end and not s[start].isalnum():
+                start+=1
+            while start < end and not s[end].isalnum():
+                end-=1
+
+            if s[start].lower() != s[end].lower():
+                return False
+
+            start, end = start+1, end-1
+        return True
