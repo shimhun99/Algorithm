@@ -46,6 +46,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0125-valid-palindrome](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
+| [0242-valid-anagram](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1768-merge-strings-alternately/) | Easy |
 ## Math
@@ -56,4 +57,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0242-valid-anagram](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0242-valid-anagram](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 <!---LeetCode Topics End-->
