@@ -6,14 +6,12 @@ class Solution:
 
         for bracket in s:
             if bracket in brackets:
-            # if (bracket is '(') or (bracket is '[') or (bracket is '{'):
                 stack.append(bracket)
 
             else:
                 if len(stack) is 0:
                     return False
                 
-                if brackets[stack[-1]] != bracket:
+                if brackets[stack.pop()] is not bracket:
                     return False
-                stack.pop()
         return len(stack) is 0
