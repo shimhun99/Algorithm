@@ -1,5 +1,6 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        # # 1. 문자열 정렬해서 key로 사용
         # anagrams = {}
 
         # for word in strs:
@@ -10,6 +11,7 @@ class Solution:
 
         # return list(anagrams.values())
 
+        # 2. 각 문자의 갯수를 key로 사용
         anagrams = {}
         for word in strs:
             counter = [0] * 26
