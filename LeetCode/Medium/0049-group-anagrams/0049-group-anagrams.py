@@ -15,7 +15,10 @@ class Solution:
             counter = [0] * 26
             for ch in word:
                 counter[ord(ch) - ord('a')] += 1
-            if tuple(counter) not in anagrams:
-                anagrams[tuple(counter)] = []
-            anagrams[tuple(counter)].append(word)
+
+            key = tuple(counter)
+
+            if key not in anagrams:
+                anagrams[key] = []
+            anagrams[key].append(word)
         return list(anagrams.values())
