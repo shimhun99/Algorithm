@@ -9,9 +9,12 @@ class Solution:
                 stack.append(bracket)
 
             else:
-                if len(stack) is 0:
-                    return False
+                # if len(stack) is 0:
+                #     return False
                 
-                if brackets[stack.pop()] is not bracket:
+                # if brackets[stack.pop()] is not bracket:
+                #     return False
+
+                if not stack or bracket != brackets[stack.pop()]:
                     return False
-        return len(stack) is 0
+        return not stack
