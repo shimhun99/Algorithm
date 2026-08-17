@@ -40,11 +40,13 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0125-valid-palindrome](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1768-merge-strings-alternately/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0020-valid-parentheses](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0125-valid-palindrome](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
@@ -78,4 +80,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
+## Manacher
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
