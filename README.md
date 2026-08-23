@@ -60,6 +60,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0046-permutations](https://github.com/shimhun99/Algorithm/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 ## Hash Table
@@ -88,4 +89,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0046-permutations](https://github.com/shimhun99/Algorithm/tree/main/0046-permutations/) | Medium |
 <!---LeetCode Topics End-->
