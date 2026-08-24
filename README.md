@@ -62,16 +62,19 @@
 | ------- | ------- |
 | [0046-permutations](https://github.com/shimhun99/Algorithm/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0217-contains-duplicate](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0217-contains-duplicate](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0217-contains-duplicate](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
