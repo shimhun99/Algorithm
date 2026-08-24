@@ -13,11 +13,23 @@ class Solution:
         
         nums_idx = {}
 
-        for i, num in enumerate(nums):
-            nums_idx[num] = i
+        # for i, num in enumerate(nums):
+        #     nums_idx[num] = i
+
+        # for i, num in enumerate(nums):
+        #     diff = target - num
+
+        #     # 같은 인덱스를 가리키는 경우 제외
+        #     if diff in nums and nums_idx[diff] != i:
+        #         return [i, nums_idx[diff]] 
+        # for i, num in enumerate(nums):
+        #     nums_idx[num] = i
 
         for i, num in enumerate(nums):
             diff = target - num
 
-            if diff in nums and nums_idx[diff] != i:
+            # 같은 인덱스를 가리키는 경우 제외
+            if diff in nums_idx:
                 return [i, nums_idx[diff]] 
+            
+            nums_idx[num] = i
