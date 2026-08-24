@@ -60,6 +60,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0046-permutations](https://github.com/shimhun99/Algorithm/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
@@ -67,6 +68,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
