@@ -26,18 +26,27 @@ class Solution:
         #                 nums[i], nums[j] = nums[j], nums[i]
         #                 break
         
+        # """
+        # time: O(n)
+        # space: O(n)
+        # """
+        # zeros = []
+        # non_zeros = []
+        
+        # for num in nums:
+        #     if num == 0:
+        #         zeros.append(num)
+        #     else:
+        #         non_zeros.append(num)
+        
+        # nums[:] = non_zeros + zeros
+
         """
 
         """
-        zeros = []
-        non_zeros = []
-        
-        for num in nums:
-            if num == 0:
-                zeros.append(num)
-            else:
-                non_zeros.append(num)
-        
-        nums[:] = non_zeros + zeros
+        zero = 0
 
-        
+        for i in range(len(nums)):
+            if nums[i] != 0:
+                nums[i], nums[zero] = nums[zero], nums[i]
+                zero+=1
