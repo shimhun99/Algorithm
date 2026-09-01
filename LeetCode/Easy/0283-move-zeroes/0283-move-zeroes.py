@@ -1,16 +1,29 @@
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """ 
+        # """
+        # time: O(n^2)
+        # space: O(1)
+        # """ 
 
-        cnt=0
+        # cnt=0
 
-        for num in nums:
-            if num == 0:
-                cnt+=1
+        # for num in nums:
+        #     if num == 0:
+        #         cnt+=1
         
-        for _ in range(cnt):
-            nums.remove(0)
-            nums.append(0)
+        # for _ in range(cnt):
+        #     nums.remove(0)
+        #     nums.append(0)
+
+        """
+        time: O(n^2)
+        space: O(1)
+        """
+        for i in range(len(nums)):
+            if nums[i] == 0:
+                for j in range(i+1, len(nums)):
+                    if nums[j] != 0:
+                        nums[i], nums[j] = nums[j], nums[i]
+                        break
+        
         
