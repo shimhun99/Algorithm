@@ -42,6 +42,7 @@
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0125-valid-palindrome](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1768-merge-strings-alternately/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -63,6 +64,7 @@
 | [0001-two-sum](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0046-permutations](https://github.com/shimhun99/Algorithm/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0217-contains-duplicate](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 ## Hash Table
@@ -98,4 +100,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0046-permutations](https://github.com/shimhun99/Algorithm/tree/main/0046-permutations/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 <!---LeetCode Topics End-->
