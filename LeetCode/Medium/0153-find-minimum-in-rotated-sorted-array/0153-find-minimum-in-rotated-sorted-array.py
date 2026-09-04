@@ -2,15 +2,15 @@ class Solution:
     def findMin(self, nums: List[int]) -> int:
         # return min(nums)
 
-        """
-        time: O(n)
-        space: O(1)
-        """
-        for i in range(len(nums)-1):
-            if nums[i] > nums[i+1]:
-                return nums[i+1]
+        # """
+        # time: O(n)
+        # space: O(1)
+        # """
+        # for i in range(len(nums)-1):
+        #     if nums[i] > nums[i+1]:
+        #         return nums[i+1]
 
-        return nums[0]
+        # return nums[0]
 
         """
         이진 탐색
