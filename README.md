@@ -65,6 +65,7 @@
 | [0001-two-sum](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0046-permutations](https://github.com/shimhun99/Algorithm/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0217-contains-duplicate](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0283-move-zeroes](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
@@ -94,6 +95,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 ## Manacher
 | Problem Name | Difficulty |
 | ------- | ------- |
