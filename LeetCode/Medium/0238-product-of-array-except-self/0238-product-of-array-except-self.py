@@ -23,8 +23,8 @@ class Solution:
         """
         after, before에는 누적곱을 각각 저장
         
-        time: O(3n)=O(n)
-        space: O(2n)=O(n)
+        time: O(2n)=O(n)
+        space: O(1)
         """
         products=[1] * len(nums)
 
@@ -32,16 +32,11 @@ class Solution:
         for i in range(len(nums)-1):
             before*=nums[i]
             products[i+1]*=before
-            # before[i+1] = before[i] * nums[i]
         
         after=1
         for i in range(len(nums)-1, 0, -1):
             after*=nums[i]
             products[i-1]*=after
-            # after[i-1] = after[i] * nums[i]
-        
-        # for b,a in zip(before, after):
-        #     products.append(b*a)
         
         return products
         
