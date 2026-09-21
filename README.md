@@ -69,6 +69,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0217-contains-duplicate](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
+| [0238-product-of-array-except-self](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0283-move-zeroes](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 ## Hash Table
@@ -110,4 +111,8 @@
 | ------- | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/SHIMHUN/Algorithm/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 <!---LeetCode Topics End-->
