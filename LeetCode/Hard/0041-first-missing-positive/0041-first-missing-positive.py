@@ -1,5 +1,10 @@
 class Solution:
     def firstMissingPositive(self, nums: list[int]) -> int:
+        
+        """
+        time: O(n)
+        space: O(1)
+        """
         n = len(nums)
 
         for i in range(n):
